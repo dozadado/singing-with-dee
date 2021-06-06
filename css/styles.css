@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+
+@font-face{
+    font-family: 'Gochi Hand', 'cursive';
+    src: url("../fonts/Gochi_Hand/GochiHand-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Dosis', sans-serif;
+    src: url("../fonts/Dosis/Dosis-VariableFont_wght.ttf");
+}
+body{
+    background-image: url(../images/Artboard\ 1.png);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    text-align: justify;
+    margin: 100px;
+}
+
+.bold{
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+}
+
+
+/*header*/
+header{
+    overflow: hidden;
+}
+
+header h1{
+    font-family: 'Gochi Hand', 'cursive';
+    float: left;
+    font-size: 30px;
+    color: rgb(71, 4, 71);
+}
+
+header img{
+    float: left;    
+}
+
+header nav{
+    overflow: hidden;
+    float: right;
+    margin-top:30px;
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(71, 4, 71);
+    margin-right: 80px;
+    font-family:'Dosis', sans-serif;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+header a:hover{
+    color:rgb(235, 203, 235);
+    transition: 0.5s;
+}
+
+/*section barney*/
+#barney{
+    padding: 120px;
+    text-align: center;
+    margin:200px
+}
+
+#barney h1{
+    font-size: 100px;
+    margin-bottom: 0px;
+    color: rgb(71, 4, 71);
+    font-family: 'Gochi Hand', 'cursive';
+}
+
+#barney h3{
+    font-size: 22px;
+    font-family: 'Dosis', sans-serif;
+    margin-top: 0px;
+    font-weight: bold;
+    color: rgb(71, 4, 71);
+}
+
+
+/*section z*/
+#z{
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+#z h1{
+    font-size: 100px;
+    margin-bottom: 0px;
+    color: rgb(71, 4, 71);
+    font-family: 'Gochi Hand', 'cursive';
+}
+
+#z h3{
+    font-size: 22px;
+    font-family: 'Dosis', sans-serif;
+    margin-top: 0px;
+    font-weight:bold ;
+    color: rgb(71, 4, 71);
+}
+
+/*about me*/
+#about-me{
+    margin-bottom: 60px;
+}
+#about-me div{
+    overflow: auto;
+}
+
+#a img{
+    float: left;
+    margin-right: 15px;
+    border: solid 6px black;
+    border-radius: 3px;
+}
+
+.p{
+    overflow: hidden;
+    font-family: 'Dosis', sans-serif;
+    color: rgb(71, 4, 71);
+    font-size: 19px;
+}
+
+#b img{
+    float: right;
+    margin-left: 15px;
+    border: solid 6px black;
+    border-radius: 3px;
+}
+
+
+/*inspos*/
+#inspos{
+    overflow: hidden;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+#inspos figcaption{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+#inspos figure{
+    border:  4px solid;
+    border-radius: 20px;
+    background-color: white;
+}
+
+#inspos figure:hover{
+    border:  8px solid rgb(71, 4, 71);
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+#inspos img{
+    width: 180px;
+    border-radius: 10px;
+}
+
+#ww{
+    float: left;
+}
+
+#e{
+    float: left;
+}
+#omm{
+    float: left;
+}
+#g{
+    width: 180px; 
+    overflow: hidden;
+}
+#g img{
+    overflow: hidden;
+}
+
+#bumm{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+#quote {
+    text-align: right;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: rgb(71, 4, 71);
+}
+
+#eleven {
+    text-align: justify;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    margin: 90px;
+    color: rgb(71, 4, 71);
+    font-size: 19px;
+}
+
+#twelve{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: rgb(71, 4, 71);
+}
+
+/*scroll up*/
+#scroll-up{
+    position: fixed;
+    bottom: 80px;
+    right: 60px;
+
+}
+
+#button{
+    font-size: 40px;
+    color: rgb(71, 4, 71);
+}
+#button:hover{
+    color:rgb(235, 203, 235);
+    transition: 0.5s;
+}
+
+/*footer*/
+footer {
+    overflow: hidden;
+    text-align: center;
+}
+footer nav{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer a {
+    text-decoration: none;
+    color: rgb(71, 4, 71);
+    margin-right: 80px;
+    font-family:'Dosis', sans-serif;
+    font-weight: bolder;
+    font-size: 22px;
+}
+ footer p {
+    color: rgb(71, 4, 71);
+    font-weight: lighter;
+ }
+
+footer a:hover{
+    color:rgb(235, 203, 235);
+    transition: 0.5s;
+}
